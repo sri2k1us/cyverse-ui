@@ -17,32 +17,35 @@ import InstallingCyVerseTheme from './src/using-the-theme/InstallingCyVerseTheme
 import MuiThemeable from './src/using-the-theme/MuiThemeable';
 
 // Components
-import ActionGroupDoc from './src/componentDocs/ActionGroup/ActionGroupDoc';
-import BarGraphDoc from './src/componentDocs/BarGraph/BarGraphDoc';
-import ButtonMenuDoc from './src/componentDocs/ButtonMenu/ButtonMenuDoc';
-import CheckableAvatarDoc from './src/componentDocs/CheckableAvatar/CheckableAvatarDoc';
-import ElementDoc from './src/componentDocs/Element/ElementDoc';
-import FABDoc from './src/componentDocs/FAB/FABDoc.js';
-import IdentityDoc from './src/componentDocs/Identity/IdentityDoc';
-import InfoBlocDoc from './src/componentDocs/InfoBlock/InfoBlockDoc';
-import ListCardDoc from './src/componentDocs/ListCard/ListCardDoc';
-import ListCardActionsDoc from './src/componentDocs/ListCardActions/ListCardActionsDoc';
-import ListCardDetailDoc from './src/componentDocs/ListCardDetail/ListCardDetailDoc';
-import ListCardHeaderDoc from './src/componentDocs/ListCardHeader/ListCardHeaderDoc';
-import ListCardIdentityDoc from './src/componentDocs/ListCardIdentity/ListCardIdentityDoc';
-import ListCardSummaryDoc from './src/componentDocs/ListCardSummary/ListCardSummaryDoc';
-import MediaCardDoc from './src/componentDocs/MediaCard/MediaCardDoc';
-import MediaCardGroupDoc from './src/componentDocs/MediaCardGroup/MediaCardGroupDoc';
-import MeterGaugeDoc from './src/componentDocs/MeterGauge/MeterGaugeDoc';
-import PillDoc from './src/componentDocs/Pill/PillDoc';
-import ProgressAvatarDoc from './src/componentDocs/ProgressAvatar/ProgressAvatarDoc';
-import SearchBarDoc from './src/componentDocs/SearchBar/SearchBarDoc';
-import ShowMoreEllipsisDoc from './src/componentDocs/ShowMoreEllipsis/ShowMoreEllipsisDoc';
-import SkeletonListDoc from './src/componentDocs/SkeletonList/SkeletonListDoc';
-import SubHeaderDoc from './src/componentDocs/SubHeader/SubHeaderDoc';
-import SummaryTextDoc from './src/componentDocs/SummaryText/SummaryTextDoc';
-import TooltipDoc from './src/componentDocs/Tooltip/TooltipDoc';
-import VerticalMenuDoc from './src/componentDocs/VerticalMenu/VerticalMenuDoc';
+import ActionGroupDoc from './src/components/ActionGroup';
+import BarGraphDoc from './src/components/BarGraph';
+import ButtonMenuDoc from './src/components/ButtonMenu';
+import CheckableAvatarDoc from './src/components/CheckableAvatar';
+import ElementDoc from './src/components/Element';
+import FABDoc from './src/components/FAB';
+import IdentityDoc from './src/components/Identity';
+import InfoBlocDoc from './src/components/InfoBlock';
+import ListCardDoc from './src/components/ListCard';
+import ListCardActionsDoc from './src/components/ListCardActions';
+import ListCardDetailDoc from './src/components/ListCardDetail';
+import ListCardHeaderDoc from './src/components/ListCardHeader';
+import ListCardIdentityDoc from './src/components/ListCardIdentity';
+import ListCardSummaryDoc from './src/components/ListCardSummary';
+import MediaCardDoc from './src/components/MediaCard';
+import MediaCardGroupDoc from './src/components/MediaCardGroup';
+import MeterGaugeDoc from './src/components/MeterGauge';
+import PillDoc from './src/components/Pill';
+import ProgressAvatarDoc from './src/components/ProgressAvatar';
+import SearchBarDoc from './src/components/SearchBar';
+import ShowMoreEllipsisDoc from './src/components/ShowMoreEllipsis';
+import SkeletonListDoc from './src/components/SkeletonList';
+import SubHeaderDoc from './src/components/SubHeader';
+import SummaryTextDoc from './src/components/SummaryText';
+import TooltipDoc from './src/components/Tooltip';
+import VerticalMenuDoc from './src/components/VerticalMenu';
+
+// SVG Icons
+import SvgIcons from './src/SvgIcons/IconSection';
 
 export default (
     <Route path="/" component={Master}>
@@ -81,5 +84,6 @@ export default (
             <Route path="tooltip" component={TooltipDoc} />
             <Route path="vertical-menu" component={VerticalMenuDoc} />
         </Route>
+        <Route path="svg-icons" component={SvgIcons} />
     </Route>
 );

@@ -1,6 +1,6 @@
 import React from 'react';
 import {  Hr, P, Title, Element } from 'cyverse-ui';
-import { Header, SideNav } from './components';
+import { Header, SideNav } from './_common/components';
 
 import 'normalize.css';
 import '../assets/css/base.css';

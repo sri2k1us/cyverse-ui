@@ -1,6 +1,6 @@
 import React from 'react';
 import { P } from 'cyverse-ui';
-import CodeBlock from '../components/CodeBlock';
+import { CodeBlock } from '../_common/components';
 
 export default class MuiThemeable extends React.Component {
     render() {
