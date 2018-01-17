@@ -1,5 +1,5 @@
 import React from "react";
-import users from "../../data/users";
+import users from "../../_common/data/users";
 import IconButton from "material-ui/IconButton";
 import DeleteIcon from "material-ui/svg-icons/action/delete";
 import EditIcon from "material-ui/svg-icons/image/edit";

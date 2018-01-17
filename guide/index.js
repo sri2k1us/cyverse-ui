@@ -1,9 +1,11 @@
 import 'babel-polyfill';
 import React from 'react';
 import ReactDOM from 'react-dom';
-
+import { Router, useRouterHistory } from 'react-router';
+import { createHistory } from 'history';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
+import cyverseTheme from 'cyverse-ui/styles/cyverseTheme';
 
 // These two lines are necessary to interop with material-ui. It's supposed to
 // be temporary. When the installation no longer mentions it, I suppose these
@@ -12,21 +14,22 @@ import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import injectTapEventPlugin from 'react-tap-event-plugin';
 injectTapEventPlugin();
 
+import routes from './routes';
 import { setup } from './setup';
 
-import cyverseTheme from 'cyverse-ui/styles/cyverseTheme';
-import StyleGuide from './src/StyleGuide.js';
+const history = useRouterHistory(createHistory)({
+    basename: __BASENAME__
+});
 
 setup();
 
-let newTheme = getMuiTheme(cyverseTheme);
-const App = () => (
-    <MuiThemeProvider muiTheme={ newTheme }>
-        <StyleGuide/>
-    </MuiThemeProvider>
-);
+let muiTheme = getMuiTheme(cyverseTheme);
 
 ReactDOM.render(
-    <App/>,
+    <MuiThemeProvider muiTheme={muiTheme}>
+        <Router history={history}>
+            {routes}
+        </Router>
+    </MuiThemeProvider>,
     document.getElementById('app')
 );

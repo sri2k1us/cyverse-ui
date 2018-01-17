@@ -13,7 +13,7 @@ import {
     SummaryText,
 } from "cyverse-ui";
 import { pad, marg } from "cyverse-ui/styles";
-import users from "../../data/users";
+import users from "../../_common/data/users";
 
 import { Avatar, MenuItem } from "material-ui";
 

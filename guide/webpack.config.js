@@ -22,6 +22,7 @@ var FaviconsWebpackPlugin = require('favicons-webpack-plugin');
 
 module.exports = function(env) {
     var { ifProduction, ifNotProduction } = getIfUtils(env);
+    var BASENAME = ifProduction('cyverse-ui', '');
 
     return {
         devtool: ifProduction('source-map', 'eval'),
@@ -41,7 +42,7 @@ module.exports = function(env) {
             ),
             path: path.resolve('dist'),
             pathinfo: ifNotProduction(),
-            publicPath: ifProduction('/cyverse-ui/', '/')
+            publicPath: `${BASENAME}/`
         },
         resolve: {
             alias: {
@@ -167,6 +168,7 @@ module.exports = function(env) {
         },
         plugins: removeEmpty([
             new webpack.DefinePlugin({
+                __BASENAME__: JSON.stringify(BASENAME),
                 'process.env': {
                     'NODE_ENV': JSON.stringify(env)
                 }
@@ -191,6 +193,7 @@ module.exports = function(env) {
             new HtmlWebpackPlugin({
                 template: './index.html',
                 inject: 'body',
+                publicPath: `${BASENAME}/`
             }),
             new FaviconsWebpackPlugin({
                 logo: './assets/images/favicon.png',
@@ -208,6 +211,11 @@ module.exports = function(env) {
                     yandex: false
                 }
             })
-        ])
+        ]),
+        devServer: {
+            historyApiFallback: {
+                index: `${BASENAME}/index.html`,
+            }
+        }
     };
 };

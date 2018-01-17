@@ -1,11 +1,8 @@
 import React from "react";
 import R from "ramda";
-import Scroll from "react-scroll";
-import theme from "../theme";
 import { Hr, P, Title, Div, Section } from "cyverse-ui";
-import { Header, SideNav, Figure, ThemeExamples, MDBlock } from "./";
-
-const ScrollAnchor = Scroll.Element;
+import MDBlock from './MDBlock';
+import theme from "../../theme";
 
 class ComponentDoc extends React.Component {
     tableData = prop => {
@@ -36,16 +33,7 @@ class ComponentDoc extends React.Component {
             );
 
         return (
-            <Section key={displayName} mb={7}>
-                <ScrollAnchor
-                    id={anchorId}
-                    style={{
-                        position: "absolute",
-                        top: "-50px"
-                    }}
-                />
-
-                <Hr mb={6} />
+            <Section key={displayName}>
                 <Title h1 headline color={theme.color.primary}>
                     {displayName}
                 </Title>

@@ -3,7 +3,6 @@ import { P } from 'cyverse-ui';
 import { parse } from 'react-docgen';
 import { Figure } from '../../components';
 import ComponentDoc from '../../components/ComponentDoc';
-import MDBlock from '../../components/MDBlock';
 import CodeBlock from '../../components/CodeBlock';
 import InfoBlock from '!raw-loader!cyverse-ui/InfoBlock';
 import InfoBlockEx from './InfoBlockEx';

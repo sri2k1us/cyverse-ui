@@ -1,7 +1,6 @@
 import React from 'react';
 import { InfoBlock } from 'cyverse-ui';
 import { pad, marg } from 'cyverse-ui/styles';
-import { Code }  from '../../components';
 import Paper from 'material-ui/Paper';
 
 class InfoBlockEx extends React.Component {

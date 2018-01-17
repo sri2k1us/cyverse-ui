@@ -1,5 +1,5 @@
 import React from "react";
-import data from "../../data/users";
+import data from "../../_common/data/users";
 import randomcolor from "randomcolor";
 import MenuItem from "material-ui/MenuItem";
 import Avatar from "material-ui/Avatar";

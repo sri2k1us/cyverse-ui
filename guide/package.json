@@ -11,7 +11,7 @@
     "build:development": "npm run clean && webpack --env=development",
     "build:production": "npm run clean && webpack --env=production -p",
     "clean": "rimraf dist",
-    "start": "webpack-dev-server --history-api-fallback --hot --env=development --port=3000",
+    "start": "webpack-dev-server --history-api-fallback --hot --env=development --port=3001",
     "stats": "npm run stats:development",
     "stats:development": "webpack --json --env=development > stats.json",
     "stats:production": "webpack --json --env=production -p > stats.json"
@@ -36,6 +36,7 @@
     "react-docgen": "^2.18.0",
     "react-dom": "^16.0.0",
     "react-ink": "^5.1.1",
+    "react-router": "^3.0.0",
     "react-scroll": "^1.6.7",
     "react-tap-event-plugin": "^3.0.0"
   },

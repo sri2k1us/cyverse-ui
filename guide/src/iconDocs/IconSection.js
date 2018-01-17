@@ -1,5 +1,4 @@
 import React from 'react';
-import Scroll from 'react-scroll';
 import R from 'ramda';
 import {  Hr, P, Title, Div, Section } from 'cyverse-ui';
 import * as icons from 'cyverse-ui/icons';
@@ -9,9 +8,6 @@ import { Figure } from '../components/';
 import CodeBlock from '../components/CodeBlock';
 import IconEx from './IconEx';
 import IconExCode from '!raw-loader!./IconEx';
-
-const scroller = Scroll.scroller;
-const ScrollAnchor = Scroll.Element;
 
 class IconSection extends React.Component {
     IconCell = (icon) => {
@@ -43,13 +39,6 @@ class IconSection extends React.Component {
     render() {
         return (
             <Section>
-                <ScrollAnchor
-                    name="svg-icons"
-                    style={{
-                        position: "absolute", 
-                        top:"-50px" 
-                    }}
-                />
                 <Title
                     h2
                     display1
@@ -59,7 +48,7 @@ class IconSection extends React.Component {
                 </Title>
                 <Div mb={ 5 }>
                     <P>
-                        SVG Icons are an extention to the material-ui svg icons. They can be used in all material-ui components that take an icon as a prop or children.
+                        SVG Icons are an extension to the material-ui svg icons. They can be used in all material-ui components that take an icon as a prop or children.
                     </P>
                     <Figure
                         caption={ `SVG Icon Example` }

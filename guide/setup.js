@@ -1,4 +1,4 @@
-import Raven from "raven-js";
+import Raven from 'raven-js';
 
 const setup = () => {
     let { hostname } = window.location;
