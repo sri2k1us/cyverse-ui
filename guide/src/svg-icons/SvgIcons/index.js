@@ -3,10 +3,10 @@ import R from 'ramda';
 import {  Hr, P, Title, Div, Section } from 'cyverse-ui';
 import * as icons from 'cyverse-ui/icons';
 
-import theme from '../theme';
-import { Figure, CodeBlock } from '../_common/components';
-import IconEx from './IconEx';
-import IconExCode from '!raw-loader!./IconEx';
+import theme from '../../theme';
+import { Figure, CodeBlock } from '../../_common/components';
+import IconEx from './Example';
+import IconExCode from '!raw-loader!./Example';
 
 class IconSection extends React.Component {
     IconCell = (icon) => {

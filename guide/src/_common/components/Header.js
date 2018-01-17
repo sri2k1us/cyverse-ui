@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router';
 import { pad } from 'cyverse-ui/styles';
 import { GithubIcon } from '../icons';
 import CyverseLogo from '../icons/mini_logo.svg';
@@ -16,7 +17,9 @@ export default class extends React.Component {
                     ...this.props.style
                 }}
             >
-                <img width="150px" src={CyverseLogo} />
+                <Link to="/" style={{ borderBottom: 'none' }}>
+                    <img width="150px" src={CyverseLogo} />
+                </Link>
                 <div style={{float: "right"}}>
                     <a href="https://github.com/cyverse/cyverse-ui" >
                         <GithubIcon size="30" fill="white" />

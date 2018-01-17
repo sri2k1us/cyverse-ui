@@ -45,7 +45,7 @@ import TooltipDoc from './src/components/Tooltip';
 import VerticalMenuDoc from './src/components/VerticalMenu';
 
 // SVG Icons
-import SvgIcons from './src/SvgIcons/IconSection';
+import SvgIcons from './src/svg-icons/SvgIcons';
 
 export default (
     <Route path="/" component={Master}>
