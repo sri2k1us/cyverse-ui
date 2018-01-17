@@ -4,8 +4,8 @@ import { Figure } from '../../_common/components';
 import ComponentDoc from '../../_common/components/ComponentDoc';
 import CodeBlock from '../../_common/components/CodeBlock';
 
-import PillEx from './PillEx';
-import PillExCode from '!raw-loader!./PillEx';
+import PillEx from './Example';
+import PillExCode from '!raw-loader!./Example';
 
 import { parse } from 'react-docgen';
 import Pill from '!raw-loader!cyverse-ui/Pill';

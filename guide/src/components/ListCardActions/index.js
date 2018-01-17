@@ -2,8 +2,8 @@ import React from 'react';
 import { P } from 'cyverse-ui';
 import { Figure, ComponentDoc, CodeBlock } from '../../_common/components';
 
-import ListCardActionsEx from './ListCardActionsEx';
-import ListCardActionsExCode from '!raw-loader!./ListCardActionsEx';
+import ListCardActionsEx from './Example';
+import ListCardActionsExCode from '!raw-loader!./Example';
 import { parse } from 'react-docgen';
 import ListCardActions from '!raw-loader!cyverse-ui/ListCardActions';
 const meta = parse(ListCardActions);

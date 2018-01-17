@@ -4,8 +4,8 @@ import { Figure } from '../../_common/components';
 import ComponentDoc from '../../_common/components/ComponentDoc';
 import CodeBlock from '../../_common/components/CodeBlock';
 
-import ShowMoreEllipsisEx from './ShowMoreEllipsisEx';
-import ShowMoreEllipsisExCode from '!raw-loader!./ShowMoreEllipsisEx';
+import ShowMoreEllipsisEx from './Example';
+import ShowMoreEllipsisExCode from '!raw-loader!./Example';
 
 import { parse } from 'react-docgen';
 import ShowMoreEllipsis from '!raw-loader!cyverse-ui/ShowMoreEllipsis';

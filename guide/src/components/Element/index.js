@@ -2,8 +2,8 @@ import React from 'react';
 import { P } from 'cyverse-ui';
 import { Figure, ComponentDoc, CodeBlock } from '../../_common/components';
 
-import ElementEx from './ElementEx';
-import ElementExCode from '!raw-loader!./ElementEx';
+import ElementEx from './Example';
+import ElementExCode from '!raw-loader!./Example';
 import { parse } from 'react-docgen';
 import Element from '!raw-loader!cyverse-ui/Element';
 const meta = parse(Element);

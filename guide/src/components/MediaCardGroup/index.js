@@ -4,8 +4,8 @@ import { Figure } from '../../_common/components';
 import ComponentDoc from '../../_common/components/ComponentDoc';
 import CodeBlock from '../../_common/components/CodeBlock';
 
-import MediaCardGroupEx from './MediaCardGroupEx';
-import MediaCardGroupExCode from '!raw-loader!./MediaCardGroupEx';
+import MediaCardGroupEx from './Example';
+import MediaCardGroupExCode from '!raw-loader!./Example';
 
 import { parse } from 'react-docgen';
 import MediaCardGroup from '!raw-loader!cyverse-ui/MediaCardGroup';

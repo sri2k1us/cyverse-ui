@@ -4,8 +4,8 @@ import { Figure } from '../../_common/components';
 import ComponentDoc from '../../_common/components/ComponentDoc';
 import CodeBlock from '../../_common/components/CodeBlock';
 
-import MeterGaugeEx from './MeterGaugeEx';
-import MeterGaugeExCode from '!raw-loader!./MeterGaugeEx';
+import MeterGaugeEx from './Example';
+import MeterGaugeExCode from '!raw-loader!./Example';
 
 import { parse } from 'react-docgen';
 import MeterGauge from '!raw-loader!cyverse-ui/MeterGauge';

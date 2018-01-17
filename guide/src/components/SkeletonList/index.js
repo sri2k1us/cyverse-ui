@@ -4,8 +4,8 @@ import { Figure } from '../../_common/components';
 import ComponentDoc from '../../_common/components/ComponentDoc';
 import CodeBlock from '../../_common/components/CodeBlock';
 
-import SkeletonListEx from './SkeletonListEx';
-import SkeletonListExCode from '!raw-loader!./SkeletonListEx';
+import SkeletonListEx from './Example';
+import SkeletonListExCode from '!raw-loader!./Example';
 
 import { parse } from 'react-docgen';
 import SkeletonList from '!raw-loader!cyverse-ui/SkeletonList';

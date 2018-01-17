@@ -2,9 +2,8 @@ import React from 'react';
 import { P } from 'cyverse-ui';
 import { Figure, ComponentDoc, CodeBlock } from '../../_common/components';
 
-import ButtonMenuEx from './ButtonMenuEx';
-import ButtonMenuExCode from '!raw-loader!./ButtonMenuEx';
-
+import ButtonMenuEx from './Example';
+import ButtonMenuExCode from '!raw-loader!./Example';
 import { parse } from 'react-docgen';
 import ButtonMenu from '!raw-loader!cyverse-ui/ButtonMenu';
 const meta = parse(ButtonMenu);

@@ -2,8 +2,8 @@ import React from 'react';
 import { P } from 'cyverse-ui';
 import { Figure, ComponentDoc, CodeBlock } from '../../_common/components';
 
-import SummaryTextEx from './SummaryTextEx';
-import SummaryTextExCode from '!raw-loader!./SummaryTextEx';
+import SummaryTextEx from './Example';
+import SummaryTextExCode from '!raw-loader!./Example';
 import { parse } from 'react-docgen';
 import SummaryText from '!raw-loader!cyverse-ui/SummaryText';
 const meta = parse(SummaryText);

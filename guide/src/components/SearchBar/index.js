@@ -4,8 +4,8 @@ import { Figure } from '../../_common/components';
 import ComponentDoc from '../../_common/components/ComponentDoc';
 import CodeBlock from '../../_common/components/CodeBlock';
 
-import SearchBarEx from './SearchBarEx';
-import SearchBarExCode from '!raw-loader!./SearchBarEx';
+import SearchBarEx from './Example';
+import SearchBarExCode from '!raw-loader!./Example';
 
 import { parse } from 'react-docgen';
 import SearchBar from '!raw-loader!cyverse-ui/SearchBar';

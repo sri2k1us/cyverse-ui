@@ -4,8 +4,8 @@ import { Figure } from '../../_common/components';
 import ComponentDoc from '../../_common/components/ComponentDoc';
 import CodeBlock from '../../_common/components/CodeBlock';
 
-import TooltipEx from './TooltipEx';
-import TooltipExCode from '!raw-loader!./TooltipEx';
+import TooltipEx from './Example';
+import TooltipExCode from '!raw-loader!./Example';
 
 import { parse } from 'react-docgen';
 import Tooltip from '!raw-loader!cyverse-ui/Tooltip';

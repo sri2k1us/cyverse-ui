@@ -2,8 +2,8 @@ import React from 'react';
 import { P } from 'cyverse-ui';
 import { Figure, ComponentDoc, CodeBlock } from '../../_common/components';
 
-import IdentityEx from './IdentityEx';
-import IdentityExCode from '!raw-loader!./IdentityEx';
+import IdentityEx from './Example';
+import IdentityExCode from '!raw-loader!./Example';
 
 import { parse } from 'react-docgen';
 import Identity from '!raw-loader!cyverse-ui/Identity';

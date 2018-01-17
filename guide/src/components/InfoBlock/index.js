@@ -5,8 +5,8 @@ import { Figure } from '../../_common/components';
 import ComponentDoc from '../../_common/components/ComponentDoc';
 import CodeBlock from '../../_common/components/CodeBlock';
 import InfoBlock from '!raw-loader!cyverse-ui/InfoBlock';
-import InfoBlockEx from './InfoBlockEx';
-import InfoBlockExCode from '!raw-loader!./InfoBlockEx';
+import InfoBlockEx from './Example';
+import InfoBlockExCode from '!raw-loader!./Example';
 
 const meta = parse(InfoBlock);
 

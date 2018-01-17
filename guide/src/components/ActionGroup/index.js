@@ -2,8 +2,8 @@ import React from 'react';
 import { P } from 'cyverse-ui';
 import { Figure, ComponentDoc, CodeBlock } from '../../_common/components';
 
-import ActionGroupEx from './ActionGroupEx';
-import ActionGroupExCode from '!raw-loader!./ActionGroupEx';
+import ActionGroupEx from './Example';
+import ActionGroupExCode from '!raw-loader!./Example';
 import { parse } from 'react-docgen';
 import ActionGroup from '!raw-loader!cyverse-ui/ActionGroup';
 const meta = parse(ActionGroup);

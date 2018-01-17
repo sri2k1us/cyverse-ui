@@ -2,8 +2,8 @@ import React from 'react';
 import { P } from 'cyverse-ui';
 import { Figure, ComponentDoc, CodeBlock } from '../../_common/components';
 
-import CheckableAvatarEx from './CheckableAvatarEx';
-import CheckableAvatarExCode from '!raw-loader!./CheckableAvatarEx';
+import CheckableAvatarEx from './Example';
+import CheckableAvatarExCode from '!raw-loader!./Example';
 import { parse } from 'react-docgen';
 import CheckableAvatar from '!raw-loader!cyverse-ui/CheckableAvatar';
 const meta = parse(CheckableAvatar);

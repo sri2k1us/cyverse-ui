@@ -4,8 +4,8 @@ import { Figure } from '../../_common/components';
 import ComponentDoc from '../../_common/components/ComponentDoc';
 import CodeBlock from '../../_common/components/CodeBlock';
 
-import VerticalMenuEx from './VerticalMenuEx';
-import VerticalMenuExCode from '!raw-loader!./VerticalMenuEx';
+import VerticalMenuEx from './Example';
+import VerticalMenuExCode from '!raw-loader!./Example';
 
 import { parse } from 'react-docgen';
 import VerticalMenu from '!raw-loader!cyverse-ui/VerticalMenu';
